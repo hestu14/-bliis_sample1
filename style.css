@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url('img/img-back.jpg');
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+}
+
+.nav {
+    color: white
+}
+
+.img-top img {
+    width: 35%;
+}
+
+.img-top2 img {
+    width: 35%;
+    transform: scaleY(-1);
+}
+
+.text-top {
+    text-align: center;
+    font-weight: bolder;
+    color: sienna;
+    font-family: 'Courgette', cursive;
+}
+
+.header {
+    height: 375px;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header img {
+    width: 45%;
+    margin: 0;
+}
+
+.text-header {
+    text-align: center;
+    color: sienna;
+    font-size: 14px;
+    font-family: 'Grandstander', cursive;
+}
+
+.text-nama {
+    text-align: center;
+    color: sienna;
+    font-size : 40px;
+    font-family: 'Grandstander', cursive;
+}
+
+#foto-pasangan {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#text-nama-ortu {
+    font-size : 14px;
+    font-family: 'Grandstander', cursive;
+}
+
+.text-undangan {
+    text-align: center;
+    color: sienna;
+    font-size: 14px;
+    border-bottom: 5px solid whitesmoke;
+    font-family: 'Grandstander', cursive;
+}
+
+.countdown-maps {
+    border-bottom: 5px solid whitesmoke;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#countdown-ket-text {
+    font-size: 16px;
+    margin-top: -10px;
+    font-family: 'Grandstander', cursive;
+}
+
+.countdown-text {
+    align-items: center;
+    justify-content: center
+}
+
+.galeri-foto {
+    min-height: 675px;
+    padding-bottom: 20px;
+}
+
+.galeri-foto-text {
+    font-size: 20px;
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.galeri-video-text {
+    font-size: 20px;
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+    color: sienna
+}
+
+.google-form {
+    height: 650px;
+}
+
+.google-form iframe {
+    width: 80%;
+}
+
+.footer {
+    min-height: 50px;
+    color: silver;
+}
+
+#bliis-logo img {
+    height: 20px;
+    width: 30px;
+}
+
+#freepik {
+    font-size: 12px;
+}
+
+#freepik a{
+    text-decoration: none;
+    color:silver;
+}
+
+@media (max-width: 576px) { 
+
+    .img-top img {
+        width: 50%;
+    }
+    
+    .img-top2 img {
+        width: 50%;
+        transform: scaleY(-1);
+    }
+
+    .header {
+        height: 325px;
+    }
+
+    .header img {
+        width: 90%;
+        margin: 0;
+    }
+
+    #maps {
+        margin-top: 30px;
+    }
+
+    #countdown-ket-text {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    
+    .google-form iframe {
+        width: 400px;
+    }
+
+    .text-and {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
