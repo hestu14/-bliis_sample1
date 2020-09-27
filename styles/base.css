@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -69,6 +70,7 @@ body::after {
 #foto-pasangan {
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 5px solid sienna;
 }
 
 #text-nama-ortu {
@@ -110,14 +112,14 @@ footer {
 }
 
 .galeri-foto-text {
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Grandstander', cursive;
     text-align: center;
     color: whitesmoke;
 }
 
 .galeri-video-text {
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Grandstander', cursive;
     text-align: center;
     color: sienna
@@ -167,6 +169,10 @@ footer {
 
 @media (max-width: 576px) { 
 
+    html, body {
+        overflow-x: hidden;
+    }
+    
     .img-top img {
         width: 50%;
     }
@@ -201,6 +207,11 @@ footer {
     .text-and {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .galeri-video-text img {
+        width: 100%;
+        height: auto;
     }
 
     .youtube iframe, .youtube object, .youtube embed { 

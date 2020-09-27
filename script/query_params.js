@@ -8,7 +8,7 @@ window.onload = function () {
         var tujuan;
 
         if (nama === null || alamat === null) {
-            tujuan = "............";
+            tujuan = "Anda (di tempat)";
             // $( "#tujuan-isi" ).hide();
         } else {
             tujuan = nama + " (" + alamat + ")";
