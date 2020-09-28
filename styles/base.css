@@ -118,6 +118,20 @@ footer {
     color: whitesmoke;
 }
 
+.galeri-foto-text img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#image-gallery1, #image-gallery3, #image-gallery5 {
+    margin-left: 150px;
+}
+
+#image-gallery2, #image-gallery4, #image-gallery6 {
+    margin-right: 150px;
+}
+
 .galeri-video-text {
     font-size: 40px;
     font-family: 'Grandstander', cursive;
@@ -186,11 +200,6 @@ footer {
         height: 325px;
     }
 
-    .header img {
-        width: 90%;
-        margin: 0;
-    }
-
     #maps {
         margin-top: 30px;
     }
@@ -220,5 +229,21 @@ footer {
         left: 5%; 
         width: 90%; 
         height: 90%; 
+    }
+}
+
+@media (max-width: 992px) { 
+
+    .header img {
+        width: 90%;
+        margin: 0;
+    }
+
+    #image-gallery1, #image-gallery3, #image-gallery5 {
+        margin-left: 0;
+    }
+    
+    #image-gallery2, #image-gallery4, #image-gallery6 {
+        margin-right: 0;
     }
 }
