@@ -40,7 +40,7 @@ body::after {
 }
 
 .header {
-    height: 375px;
+    min-height: 55vh;
     border-top: 5px solid whitesmoke;
     border-bottom: 5px solid whitesmoke;
     display: flex;
