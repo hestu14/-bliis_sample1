@@ -25,7 +25,7 @@ body::after {
 }
 
 .img-top, .img-top2 {
-    min-height: 10vh;
+    min-height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,6 +67,7 @@ body::after {
     color: sienna;
     font-size: 14px;
     font-family: 'Grandstander', cursive;
+    padding-top: 50px;
 }
 
 .text-nama {
@@ -92,7 +93,6 @@ body::after {
     text-align: center;
     color: sienna;
     font-size: 14px;
-    border-bottom: 5px solid whitesmoke;
     font-family: 'Grandstander', cursive;
 }
 
