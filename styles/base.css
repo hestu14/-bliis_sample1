@@ -21,7 +21,7 @@ body::after {
 
 .nav {
     color: white;
-    min-height: 10vh;
+    min-height: 50px;
 }
 
 .img-top, .img-top2 {
@@ -46,7 +46,6 @@ body::after {
     font-weight: bolder;
     color: sienna;
     font-family: 'Courgette', cursive;
-    min-height: 5vh;
     overflow-y: hidden;
 }
 
