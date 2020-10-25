@@ -20,15 +20,24 @@ body::after {
 }
 
 .nav {
-    color: white
+    color: white;
+    min-height: 10vh;
+}
+
+.img-top, .img-top2 {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
 }
 
 .img-top img {
-    width: 35%;
+    width: 30%;
 }
 
 .img-top2 img {
-    width: 35%;
+    width: 30%;
     transform: scaleY(-1);
 }
 
@@ -37,15 +46,18 @@ body::after {
     font-weight: bolder;
     color: sienna;
     font-family: 'Courgette', cursive;
+    min-height: 5vh;
+    overflow-y: hidden;
 }
 
 .header {
-    min-height: 55vh;
+    min-height: 50vh;
     border-top: 5px solid whitesmoke;
     border-bottom: 5px solid whitesmoke;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    overflow-y: hidden;
 }
 
 .header img {
