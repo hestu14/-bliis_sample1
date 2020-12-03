@@ -21,7 +21,12 @@ body::after {
 
 .nav {
     color: white;
-    min-height: 50px;
+    font-size: 16px;
+    font-family: 'Grandstander', cursive;
+}
+
+#tujuan-isi {
+    padding-bottom: 2px;
 }
 
 .img-top, .img-top2 {
@@ -167,9 +172,9 @@ footer {
 }
 
 #bliis-logo img {
-    height: 20px;
-    width: 30px;
-    margin-bottom: 8px;
+    height: 14px;
+    width: 25px;
+    margin-bottom: 3px;
 }
 
 #freepik {
@@ -201,6 +206,10 @@ footer {
 
     html, body {
         overflow-x: hidden;
+    }
+
+    .nav, #tujuan-isi {
+        font-size: 14px;
     }
     
     .img-top img {
